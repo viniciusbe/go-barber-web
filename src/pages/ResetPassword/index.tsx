@@ -3,7 +3,7 @@ import { FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
-import { useHistory, useLocation } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 
 import logoImg from '../../assets/logo.svg';
 
@@ -68,9 +68,10 @@ const ResetPassword: React.FC = () => {
         }
 
         addToast({
-          type: 'info',
+          type: 'error',
           title: 'Erro ao resetar senha',
-          description: 'Ocorreu um erro ao resetar sua senha, tente novamente',
+          description:
+            'Ocorreu um erro ao resetar sua senha, tente pedir outro email para resetar a senha',
         });
       }
     },
@@ -100,6 +101,10 @@ const ResetPassword: React.FC = () => {
             />
 
             <Button type="submit">Alterar senha</Button>
+
+            <Link to="forgot-password">
+              Pedir outro email de recuperação de senha
+            </Link>
           </Form>
         </AnimationContainer>
       </Content>
