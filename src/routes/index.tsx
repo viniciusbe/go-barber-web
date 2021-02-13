@@ -3,18 +3,18 @@ import { Switch } from 'react-router-dom';
 
 import Route from './Route';
 
-import SignUp from '../pages/SignUp';
-import ForgotPassword from '../pages/ForgotPassword';
-import ResetPassword from '../pages/ResetPassword';
-
-import Profile from '../pages/Profile';
-import Dashboard from '../pages/Dashboard';
-import NotFound from '../pages/NotFound';
+import Loading from '../pages/Loading';
 
 const SignIn = lazy(() => import('../pages/SignIn'));
+const ForgotPassword = lazy(() => import('../pages/ForgotPassword'));
+const ResetPassword = lazy(() => import('../pages/ResetPassword'));
+const Dashboard = lazy(() => import('../pages/Dashboard'));
+const NotFound = lazy(() => import('../pages/NotFound'));
+const Profile = lazy(() => import('../pages/Profile'));
+const SignUp = lazy(() => import('../pages/SignUp'));
 
 const Routes: React.FC = () => (
-  <Suspense fallback={<h1>CARREGANDO...</h1>}>
+  <Suspense fallback={Loading}>
     <Switch>
       <Route path="/" exact component={SignIn} />
       <Route path="/signup" component={SignUp} />
