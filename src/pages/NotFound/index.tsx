@@ -1,6 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import { Container } from './styles';
 
 const NotFound: React.FC = () => {
-  return <h1>404 NOT FOUND</h1>;
+  return (
+    <Container>
+      <h1>Essa página não existe :(</h1>
+      <Link to="/">Voltar para o início</Link>
+    </Container>
+  );
 };
 export default NotFound;

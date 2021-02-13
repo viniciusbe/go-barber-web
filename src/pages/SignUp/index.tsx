@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useCallback, useRef } from 'react';
 import { FiArrowLeft, FiMail, FiUser, FiLock } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
@@ -62,10 +63,18 @@ const SignUp: React.FC = () => {
           return;
         }
 
+        const { status } = err.response;
+
+        let description;
+        status === 400
+          ? (description = 'Este e-mail já está em uso')
+          : (description =
+            'Ocorreu um erro ao fazer o cadastro, tente novamente');
+
         addToast({
           type: 'error',
           title: 'Erro no cadastro',
-          description: 'Ocorreu um erro ao fazer o cadastro, tente novamente',
+          description,
         });
       }
     },
