@@ -1,22 +1,22 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense } from 'react';
 import { Switch } from 'react-router-dom';
 
 import Route from './Route';
 
 import Loading from '../pages/Loading';
 
-const SignIn = lazy(() => import('../pages/SignIn'));
-const SignUp = lazy(() => import('../pages/SignUp'));
-const ForgotPassword = lazy(() => import('../pages/ForgotPassword'));
-const ResetPassword = lazy(() => import('../pages/ResetPassword'));
+const SignIn = React.lazy(() => import('../pages/SignIn'));
+const SignUp = React.lazy(() => import('../pages/SignUp'));
+const ForgotPassword = React.lazy(() => import('../pages/ForgotPassword'));
+const ResetPassword = React.lazy(() => import('../pages/ResetPassword'));
 
-const Profile = lazy(() => import('../pages/Profile'));
-const Dashboard = lazy(() => import('../pages/Dashboard'));
+const Profile = React.lazy(() => import('../pages/Profile'));
+const Dashboard = React.lazy(() => import('../pages/Dashboard'));
 
-const NotFound = lazy(() => import('../pages/NotFound'));
+const NotFound = React.lazy(() => import('../pages/NotFound'));
 
 const Routes: React.FC = () => (
-  <Suspense fallback={Loading}>
+  <Suspense fallback={<Loading />}>
     <Switch>
       <Route path="/" exact component={SignIn} />
       <Route path="/signup" component={SignUp} />

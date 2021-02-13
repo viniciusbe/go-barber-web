@@ -1,9 +1,28 @@
 import React from 'react';
 
-import { LoadingSpin } from './styles';
+import {
+  BarberContainer,
+  Ball,
+  EndCap,
+  Cap,
+  BarberWrap,
+  Barber,
+} from './styles';
 
 export const Loading: React.FC = () => {
-  return <LoadingSpin />;
+  return (
+    <BarberContainer>
+      <Ball />
+      <EndCap />
+      <Cap />
+      <BarberWrap>
+        <Barber />
+      </BarberWrap>
+      <Cap />
+      <EndCap />
+      <Ball />
+    </BarberContainer>
+  );
 };
 
 export default Loading;
