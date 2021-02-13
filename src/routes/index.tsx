@@ -6,12 +6,14 @@ import Route from './Route';
 import Loading from '../pages/Loading';
 
 const SignIn = lazy(() => import('../pages/SignIn'));
+const SignUp = lazy(() => import('../pages/SignUp'));
 const ForgotPassword = lazy(() => import('../pages/ForgotPassword'));
 const ResetPassword = lazy(() => import('../pages/ResetPassword'));
-const Dashboard = lazy(() => import('../pages/Dashboard'));
-const NotFound = lazy(() => import('../pages/NotFound'));
+
 const Profile = lazy(() => import('../pages/Profile'));
-const SignUp = lazy(() => import('../pages/SignUp'));
+const Dashboard = lazy(() => import('../pages/Dashboard'));
+
+const NotFound = lazy(() => import('../pages/NotFound'));
 
 const Routes: React.FC = () => (
   <Suspense fallback={Loading}>
