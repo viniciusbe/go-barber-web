@@ -75,7 +75,7 @@ const SignIn: React.FC = () => {
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Faça seu logon</h1>
 
-            <Input name="email" icon={FiMail} placeholder="E-mail" />
+            <Input autoFocus name="email" icon={FiMail} placeholder="E-mail" />
             <Input
               name="password"
               icon={FiLock}
