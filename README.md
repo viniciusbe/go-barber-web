@@ -17,12 +17,6 @@
   <a href="https://github.com/viniciusbe/happy/blob/master/.github/webPreview.gif"><img src="https://github.com/viniciusbe/happy/blob/master/.github/webPreview.gif" title="web preview" /></a>
 </p>
 
-### Mobile
-
-<p align="center">
-  <a href="https://github.com/viniciusbe/happy/blob/master/.github/2020_10_21_00_14_27_trim.gif"><img src="https://github.com/viniciusbe/happy/blob/master/.github/2020_10_21_00_14_27_trim.gif" title="mobile preview" /></a>
-</p>
-
 ## 📝 Table of Contents
 
 - [About](#about)
