@@ -5,7 +5,7 @@
 
 ---
 
-<p align="center"> [GoBarber](https://gobarber.vibesa.online/) is a web/mobile application for barber shop scheduling
+<p align="center"> <a href="https://gobarber.vibesa.online/">GoBarber</a> is a web/mobile application for barber shop scheduling
     <br>
 </p>
 
