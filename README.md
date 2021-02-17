@@ -5,12 +5,13 @@
 
 ---
 
-<p align="center"> <a href="https://gobarber.vibesa.online/">GoBarber</a> is a web/mobile application for barber shop scheduling
-    <br>
+<p align="center"> <a href="https://gobarber.vibesa.online/">GoBarber</a> is a web/mobile application for barber shop scheduling  </p>
   
-  ![Badge](https://img.shields.io/badge/PRs-Welcome-%23ff9000) [![GitHub license](https://img.shields.io/github/license/viniciusbe/GoBarber-web?color=%23ff9000)](https://github.com/viniciusbe/GoBarber-web/blob/master/LICENSE) ![Badge](https://img.shields.io/badge/made%20by-Vin%C3%ADcius%20Bernardes-%23ff9000) ![Badge](https://img.shields.io/badge/repo%20status-Active-green)
+  [![Badge](https://img.shields.io/badge/PRs-Welcome-%23ff9000)](https://github.com/viniciusbe/GoBarber-web/pulls) [![GitHub license](https://img.shields.io/github/license/viniciusbe/GoBarber-web?color=%23ff9000)](https://github.com/viniciusbe/GoBarber-web/blob/master/LICENSE) [![Badge](https://img.shields.io/badge/made%20by-Vin%C3%ADcius%20Bernardes-%23ff9000)](https://github.com/viniciusbe) ![Badge](https://img.shields.io/badge/repo%20status-Active-green)
   
-</p>
+  > [See the web application here](https://gobarber.vibesa.online/) 
+
+
 
 ## ▶ Preview
 
@@ -81,9 +82,8 @@ Run the application:
 yarn start
 ```
 
-It should open 2 pages on your browser, one for the mobile application and another with the web application. With your mobile devide, scan the QR code showed in the expo's web page.
-
-
+The application will run on http://localhost:3000/
+You'll also need to clone and run the [api](https://github.com/viniciusbe/GoBarberBackEndDeploy) so the application can work properly!
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -97,7 +97,7 @@ It should open 2 pages on your browser, one for the mobile application and anoth
 
 This project is made available under the [MIT License](https://github.com/viniciusbe/GoBarber-web/blob/master/LICENSE)
 
----
+
 ## Authors <a name = "license"></a> <a name="authors"></a>
 
 <a href="https://github.com/viniciusbe">
