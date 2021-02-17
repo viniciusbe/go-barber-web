@@ -82,6 +82,7 @@ yarn start
 ```
 
 The application will run on http://localhost:3000/
+
 You'll also need to clone and run the [api](https://github.com/viniciusbe/GoBarberBackEndDeploy) so the application can work properly!
 
 ## ⛏️ Built Using <a name = "built_using"></a>
