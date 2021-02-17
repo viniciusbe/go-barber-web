@@ -3,7 +3,6 @@
  <img src="https://github.com/viniciusbe/GoBarber-web/blob/master/.github/images/logo_github.png" alt="Project logo"></a>
 </p>
 
----
 
 <p align="center"> <a href="https://gobarber.vibesa.online/">GoBarber</a> is a web/mobile application for barber shop scheduling  </p>
   
@@ -11,6 +10,7 @@
   
   > [See the web application here](https://gobarber.vibesa.online/) 
 
+---
 
 
 ## ▶ Preview
