@@ -7,6 +7,9 @@
 
 <p align="center"> <a href="https://gobarber.vibesa.online/">GoBarber</a> is a web/mobile application for barber shop scheduling
     <br>
+  
+  ![Badge](https://img.shields.io/badge/PRs-Welcome-%23ff9000) [![GitHub license](https://img.shields.io/github/license/viniciusbe/GoBarber-web?color=%23ff9000)](https://github.com/viniciusbe/GoBarber-web/blob/master/LICENSE) ![Badge](https://img.shields.io/badge/made%20by-Vin%C3%ADcius%20Bernardes-%23ff9000) ![Badge](https://img.shields.io/badge/repo%20status-Active-green)
+  
 </p>
 
 ## ▶ Preview
@@ -17,6 +20,8 @@
   <a href="https://github.com/viniciusbe/GoBarber-web/blob/master/.github/images/login.png">
     <img src="https://github.com/viniciusbe/GoBarber-web/blob/master/.github/images/login.png" title="Login" /></a>
 </p>
+
+### Dashboard
 
 <p align="center">
   <a href="https://github.com/viniciusbe/GoBarber-web/blob/master/.github/images/dashboard.png">
@@ -93,5 +98,16 @@ It should open 2 pages on your browser, one for the mobile application and anoth
 This project is made available under the [MIT License](https://github.com/viniciusbe/GoBarber-web/blob/master/LICENSE)
 
 ---
-<a name="authors"></a>
-Made with ❤ by Vinícius Bernardes
+## Authors <a name = "license"></a> <a name="authors"></a>
+
+<a href="https://github.com/viniciusbe">
+  
+ <img align="left" width="100" height="100" src="https://avatars.githubusercontent.com/u/61849613?s=460&u=246f8dbe8afcc6dec5999d2a6243121bcd4922be&v=4" alt="avatar"/>
+
+</a>
+
+Made with ❤ by [Vinícius Bernardes](https://github.com/viniciusbe)
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-bernardes-santos/)
+[![Gmail Badge](https://img.shields.io/badge/-vinicius@vibesa.online-d14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:vinicius@vibesa.online)
+[![Twitter Badge](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FViniciusbern7)](https://twitter.com/Viniciusbern7)
